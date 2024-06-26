@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class CommonController {
 
-    @GetMapping(value = ["/"])
-    fun health(): Boolean {
-        return true
+    @GetMapping(value = ["/api/data"])
+    fun health(): String {
+        return "hello"
     }
 }
