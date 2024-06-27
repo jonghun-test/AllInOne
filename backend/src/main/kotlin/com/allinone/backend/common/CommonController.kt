@@ -1,4 +1,4 @@
-package com.jonghun.all_in_one.common
+package com.allinone.backend.common
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
@@ -8,6 +8,6 @@ class CommonController {
 
     @GetMapping(value = ["/api/data"])
     fun health(): String {
-        return "hello"
+        return "hello22"
     }
 }
